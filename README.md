@@ -110,3 +110,6 @@ results = colbert_vstore.similarity_search('is there a cat?')
 - [AstraDB](https://www.datastax.com/products/datastax-astra)
 
 - [Langchain](https://python.langchain.com/docs/integrations/vectorstores/astradb)
+
+#### License
+Apache License 2.0

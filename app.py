@@ -4,7 +4,6 @@ from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 import os 
 import streamlit as st
-import pandas as pd 
 
 @st.cache_resource
 def init():
@@ -40,4 +39,3 @@ with col1:
 with col2:
     st.header('DPR Results')
     st.json(dpr_results)
-

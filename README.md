@@ -51,7 +51,7 @@ For ColBERT style retrieval, data is stored in 2 Astra DB collections
 `interactions_bert` - for storing contextualized BERT embeddings for individual tokens in a chunk
 ```
 {
-    "_id": "df837eab-a779-4afa-b1ff-45e6874b593b",
+    "_id": "..",
     "part": "15",
     "token": "15",
     "$vector": [...],
